@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extenset", "Extenset\Extenset.csproj", "{ED138145-46B6-4B80-BC0E-A5A022DA6AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8D5AAA85-F6C2-4311-BAE6-DE5757DCC98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extenset.Tests", "tests\Extenset.Tests\Extenset.Tests.csproj", "{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CDAD443-345A-423E-A771-4D13688C84A3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		stylecop.json = stylecop.json
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Extenset.sln.DotSettings = Extenset.sln.DotSettings
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Props", "Props", "{EB964981-F811-45EC-82A9-0CCEFBF9089D}"
+	ProjectSection(SolutionItems) = preProject
+		..\props\Build.props = ..\props\Build.props
+		..\props\Code Analysis.props = ..\props\Code Analysis.props
+		..\props\Documentation.props = ..\props\Documentation.props
+		..\props\Package.props = ..\props\Package.props
+		..\props\Project.props = ..\props\Project.props
+		..\props\Tests.props = ..\props\Tests.props
+		..\props\Version.Default.props = ..\props\Version.Default.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED138145-46B6-4B80-BC0E-A5A022DA6AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED138145-46B6-4B80-BC0E-A5A022DA6AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED138145-46B6-4B80-BC0E-A5A022DA6AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED138145-46B6-4B80-BC0E-A5A022DA6AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98F97E4A-C2A6-4770-A1A9-3CF35FCD2BE5} = {8D5AAA85-F6C2-4311-BAE6-DE5757DCC98F}
+		{EB964981-F811-45EC-82A9-0CCEFBF9089D} = {1CDAD443-345A-423E-A771-4D13688C84A3}
+	EndGlobalSection
+EndGlobal
