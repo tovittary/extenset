@@ -1,0 +1,13 @@
+.idea
+
+.vs
+*.csproj.user
+*.pubxml
+*.pubxml.user
+*.DotSettings.user
+
+obj
+bin
+Build
+
+props/Version.props

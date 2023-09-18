@@ -1,0 +1,10 @@
+<Project>
+
+    <PropertyGroup>
+        <Configurations>Debug;Release</Configurations>
+        <Platform>AnyCPU</Platform>
+        <BuildDir>$(SolutionDir)..\build</BuildDir>
+        <OutputPath>$(BuildDir)\$(Configuration)\$(Platform)</OutputPath>
+    </PropertyGroup>
+
+</Project>

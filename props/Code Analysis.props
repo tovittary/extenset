@@ -1,0 +1,19 @@
+<Project>
+
+    <PropertyGroup>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <NoWarn>SA1649</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AdditionalFiles Include="$(SolutionDir)\stylecop.json" Link="stylecop.json" Visible="false" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.507">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>

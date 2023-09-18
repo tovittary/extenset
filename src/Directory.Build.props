@@ -1,0 +1,25 @@
+<Project>
+
+    <ImportGroup>
+        <Import Project="..\props\Build.props" />
+        <Import Project="..\props\Code Analysis.props" />
+        <Import Project="..\props\Project.props" />
+    </ImportGroup>
+
+    <ImportGroup Condition="Exists('..\props\Version.props')">
+        <Import Project="..\props\Version.props" />
+    </ImportGroup>
+
+    <ImportGroup Condition="!Exists('..\props\Version.props')">
+        <Import Project="..\props\Version.Default.props" />
+    </ImportGroup>
+
+    <ImportGroup Condition="'$(MSBuildProjectName.EndsWith(`Tests`))'">
+        <Import Project="..\props\Tests.props" />
+    </ImportGroup>
+
+    <ImportGroup Condition="'!$(MSBuildProjectName.EndsWith(`Tests`))'">
+        <Import Project="..\props\Package.props" />
+    </ImportGroup>
+
+</Project>

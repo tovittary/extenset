@@ -1,0 +1,7 @@
+<Project>
+
+    <ImportGroup Condition="'$(Configuration)' == 'Release' AND '!$(MSBuildProjectName.EndsWith(`Tests`))'">
+        <Import Project="..\props\Documentation.props" />
+    </ImportGroup>
+
+</Project>
