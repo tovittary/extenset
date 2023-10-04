@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFrameworks>netcoreapp3.1;net7.0;</TargetFrameworks>
         <LangVersion>11.0</LangVersion>
-        <NoWarn>SA0001;SA1600;SA1601;SA1649;CS1591</NoWarn>
+        <NoWarn>SA0001;SA1600;SA1601;SA1602;SA1649;CS1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
