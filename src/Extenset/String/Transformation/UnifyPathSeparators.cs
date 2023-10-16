@@ -5,6 +5,10 @@
 /// </summary>
 public static partial class StringExtensions
 {
+    private const char UniversalDirectorySeparator = '/';
+
+    private const char WindowsDirectorySeparator = '\\';
+
     /// <summary>
     /// Returns a copy of the string unified with respect to file system paths.
     /// </summary>
