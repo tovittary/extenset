@@ -3,7 +3,7 @@
 /// <summary>
 /// Extension methods for <see cref="DateTime" />.
 /// </summary>
-public static class DateTimeExtensions
+public static partial class DateTimeExtensions
 {
     /// <summary>
     /// Returns a new <see cref="DateTime" /> value corresponding to the end of the day specified

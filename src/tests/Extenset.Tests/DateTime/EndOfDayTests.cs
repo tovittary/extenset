@@ -1,7 +1,7 @@
 ﻿namespace Extenset.Tests;
 
 [TestFixture]
-internal sealed class DateTimeExtensionsTests
+internal sealed partial class DateTimeExtensionsTests
 {
     [Test]
     public void EndOfDay_ShouldReturnEndOfDay()
